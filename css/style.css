@@ -1,0 +1,69 @@
+body {
+	color: white;
+	background-color: brown;
+	font-family:fantasy;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: fantasy;
+	font-weight: 500;
+	color: white;
+}
+a {
+	color: #FFFFFF;
+}
+label {
+	text-align: left;
+	color: white;
+}
+textarea {
+	height: 200px;
+}
+.top-bar {
+	overflow: hidden;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	background: #A52A2A;
+	margin-bottom: 0;
+}
+.video-player {
+	padding-top: 20px;
+}
+.panel {
+	border: none;
+	background-color: #f2f2f2;
+}
+.panel p {
+	color: #9A2D2D;
+}
+.main-content, .gallery, .contact-us {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.gallery {
+	padding: 20px 0;
+	background-color: #DEAB98;
+}
+.clearing-thumbs li {
+	margin: 0 20px 20px 0;
+}
+.clearing-thumbs li:first-child {
+	margin-left: 10px;
+}
+button:hover {
+	background-color: #cf2a0e;
+}
+button {
+	background-color: #DEAB98;
+}
+footer {
+	color: #fff;/*background: #DEAB98;*/
+    
+}
+@media only screen and (min-width: 40.063em){
+.top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 15px;
+    line-height: 45px;
+    background: #333333;
+    font-family: fantasy;
+}}
